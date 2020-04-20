@@ -7,3 +7,10 @@
   margin-top: 100px;
   padding-top: 40px;
 }
+
+.aboutContainer:after{
+  clear:both;
+  display:table;
+  content:""
+
+}

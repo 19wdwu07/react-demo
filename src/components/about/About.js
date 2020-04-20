@@ -7,7 +7,7 @@ import Para from '../para/Para';
 class About extends React.Component{
   render(){
     return(
-      <div>
+      <div className="aboutContainer">
           <h1 className="heading"> About  </h1>
           <Para/>
           <Imagge/>

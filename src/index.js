@@ -4,6 +4,7 @@ import './index.css';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Nav from './components/nav/Nav';
+import Products from './components/products/Products';
 
 
 ReactDOM.render(
@@ -16,5 +17,6 @@ ReactDOM.render(
     </div>
     <Home/>
     <About/>
+    <Products/>
   </div>,
   document.getElementById('root'));
