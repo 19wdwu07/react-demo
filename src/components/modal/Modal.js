@@ -14,7 +14,7 @@ close = () =>{
     return(
       <div>
         <div className="modal-footer mt-5">
-          <button type="button" className="btn btn-secondary" data-dismiss="modal" onClick={this.close}>Close</button>
+          <button type="button" className="btn btn-secondary mr-5" data-dismiss="modal" onClick={this.close}>Close</button>
         </div>
 
         <h5 className="modal-title text-center display-1">{this.props.title}</h5>
