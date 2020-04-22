@@ -4,6 +4,7 @@ import App from '../../App';
 
 
 
+
 class Modal extends React.Component{
 close = () =>{
   ReactDOM.render(<App/>, document.getElementById('root'));

@@ -5,6 +5,7 @@ import './Nav.css';
 import Home from '../home/Home';
 import About from '../about/About';
 import Products from '../products/Products';
+import Contact from '../contact/Contact';
 
 
 
@@ -61,7 +62,21 @@ class Nav extends React.Component{
    }
 
 
-
+   contact = ()=>{
+      console.log('Contact');
+      const contactSection = (
+        <div className="container">
+          <div className="header">
+            <h1 className="h1"> React Demo Site</h1>
+            <div className="buttons">
+              <Nav/>
+            </div>
+          </div>
+          <Contact/>
+        </div>
+      )
+      ReactDOM.render(contactSection,document.getElementById('root'));
+    }
 
   render(){
     return(
@@ -70,8 +85,8 @@ class Nav extends React.Component{
 
         <button className="home" onClick={this.home}> Home</button>
         <button className="about" onClick={this.about}> About</button>
-        <button className="about" onClick={this.products}> Products</button>
-
+        <button className="products" onClick={this.products}> Products</button>
+        <button className="contact" onClick={this.contact}> Contact</button>
       </div>
     )
   }

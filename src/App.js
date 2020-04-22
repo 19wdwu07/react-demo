@@ -1,8 +1,12 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Nav from './components/nav/Nav';
 import Products from './components/products/Products';
+import Contact from './components/contact/Contact';
+
 
 
 class App extends React.Component{
@@ -18,6 +22,7 @@ class App extends React.Component{
         <Home/>
         <About/>
         <Products/>
+        <Contact/>
       </div>
     )
   }

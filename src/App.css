@@ -1,0 +1,47 @@
+body{
+  background: #4287f5;
+  color:white;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+  padding: 50px;
+  /* background: black; */
+}
+.header{
+  width:70%;
+  /* height:80px; */
+  margin:auto;
+  padding: 30px;
+  background: #066a75;
+
+}
+.header:after{
+  clear:both;
+  display:table;
+  content:"";
+}
+.h1{
+  width: 50%;
+  float:left;
+
+}
+.buttons{
+  width:50%;
+  float:left;
+  display:block;
+  margin-top: 15px;
+  text-align: right;
+
+
+}
+.home, .about, .products, .contact{
+  font-size: 20px;
+  color: white;
+  background: none;
+  border:none;
+}
+.home:hover, .about:hover, .products:hover, .contact:hover{
+  color: black;
+}
