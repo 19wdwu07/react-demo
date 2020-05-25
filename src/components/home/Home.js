@@ -10,7 +10,7 @@ class Home extends React.Component{
       <div>
         <h1 className="heading"> Home  </h1>
         <div className="paradiv">
-        <Para/> <Para/>
+          <Para/> <Para/>
         </div>
         <img style={{width: '100%', margin:'auto', display:'block'}} src={background} alt="background"/>
 

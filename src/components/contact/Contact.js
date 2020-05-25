@@ -30,12 +30,16 @@ class Contact extends Component {
     return (
       <div>
         <form onSubmit = {this.onSubmit}  className="container mt-5" >
+
           <label> Username: </label>
           <input className="form-control mt-2 mb-3" onChange={this.changeEvent} type="text" name="username" value={this.state.username}/>
+
           <label> Email: </label>
           <input className="form-control mt-2 mb-3" onChange={this.changeEvent} type="email" name="email" value={this.state.email}/>
+
           <label> Password: </label>
           <input className="form-control mt-2 mb-3" onChange={this.changeEvent} type="password" name="password" value={this.state.password}/>
+
           <input className="form-control mt-5 mb-5" type="submit" value="Submit" />
         </form>
 

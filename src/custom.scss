@@ -1,0 +1,28 @@
+// Override default variables before the import
+// $body-bg: #000;
+$blue : #173438; // primary
+$gray-600 : #4E7867; //secondary
+$white : #04926D; // body background
+$green: #C1C44D;
+
+// Option A
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+// Option B: Include parts of Bootstrap
+
+// Required
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+//
+//optional
+// @import "../node_modules/bootstrap/scss/utilities";
+// @import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/grid";
+// @import "../node_modules/bootstrap/scss/buttons";
+// @import "../node_modules/bootstrap/scss/images";
+// @import "../node_modules/bootstrap/scss/jumbotron";
+// @import "../node_modules/bootstrap/scss/transitions";
+// @import "../node_modules/bootstrap/scss/type";
